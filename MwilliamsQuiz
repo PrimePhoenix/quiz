@@ -463,14 +463,14 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\tatapng"));
+            + "\\JAVA\\Assignment\\Assignment2\\madrid.png"));
      
-            Q.setText("Name this Auto Logo");
+            Q.setText(" Which one among these is not a primitive datatype?");
             Q2.setText("Choose the correct answer");
-            rb[0].setText("Tuscan");
-            rb[1].setText("Tata");
-            rb[2].setText("Lincoln");
-            rb[3].setText("Tesla");
+            rb[0].setText("int");
+            rb[1].setText("float");
+            rb[2].setText("boolean");
+            rb[3].setText("char");
            
         }
          
@@ -478,13 +478,13 @@ public class Quiz
         {  
             imageLabel.setIcon(new ImageIcon("C:\\Users\\marco\\OneDrive\\"
             + "(DBMS2)(JAVA)(C#)(SAD1)"
-            + "\\JAVA\\Assignment\\Assignment2\\ford.jpg"));
+            + "\\JAVA\\Assignment\\Assignment2\\cat.png"));
             
-            Q.setText("Which auto company started the first assembly line?");  
-            rb[0].setText("Mercedez Benz");
-            rb[1].setText("Toyota");
-            rb[2].setText("Ford");
-            rb[3].setText("BMW");  
+            Q.setText("Which class is available to all the class automatically?");  
+            rb[0].setText("Swing");
+            rb[1].setText("Applet");
+            rb[2].setText("Object");
+            rb[3].setText("ActionEvent");  
             
        
         }  
@@ -560,11 +560,11 @@ public class Quiz
              + "(DBMS2)(JAVA)(C#)(SAD1)"
             + "\\JAVA\\Assignment\\Assignment2\\dog.png"));
             
-            Q.setText("Which one among these is not a function of Object class?");  
-            rb[0].setText("toString");
-            rb[1].setText("finalize");
-            rb[2].setText("equals");  
-            rb[3].setText("getDocumentBase");         
+            Q.setText(" Name this Auto Logo?");  
+            rb[0].setText("Telsa");
+            rb[1].setText("Tata");
+            rb[2].setText("Lincoln");  
+            rb[3].setText("Tuscan");         
         } 
         
         if(current==8)  
@@ -616,7 +616,7 @@ public class Quiz
         if(current==6)  
             return(rb[1].isSelected());  
         if(current==7)  
-            return(rb[3].isSelected());  
+            return(rb[1].isSelected());  
         if(current==8)  
             return(rb[1].isSelected());  
         if(current==9)  
@@ -628,13 +628,14 @@ public class Quiz
     public void displayAnswers()
     {
   
-            System.out.println(" Question 1:Name this Auto Logo");
-            System.out.println(" Answer: TATA");
+            System.out.println(" Question 1: Which one among these is not a primitive datatype?");
+            System.out.println(" Answer: float");
             System.out.println("Your choice:" + ans[0]);
             System.out.println();
             
-            System.out.println("Question 2: Which auto company started the first assembly line?");  
-             System.out.println(" Answer: Ford");
+            System.out.println("Question 2: Which class is available to all" + 
+            "the class automatically?");  
+             System.out.println(" Answer: Object");
             System.out.println("Your choice:" +  ans[1]);
             System.out.println();
             
@@ -659,7 +660,7 @@ public class Quiz
             System.out.println("Your choice:" +  ans[5]);
             System.out.println();
                  
-            System.out.println("Qustion 7: Which one among these is not a class? ");  
+            System.out.println("Qustion 7: Name this Auto Logo? ");  
             System.out.println("Answer: Actionperformed");
             System.out.println("Your choice:" +  ans[6]);
             System.out.println();
